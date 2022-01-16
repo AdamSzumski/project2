@@ -13,7 +13,7 @@ body{
     font-size: 1.6rem;
 }
 
-.her-shadow{
+.hero-shadow{
     position: absolute;
     top: 0;
     left: 0;
@@ -65,6 +65,29 @@ header{
 .carousel-img-three{
     background-image: url('../img/main-carousel-3.jpg');
 }
+
+/* home */
+.home-boxes{
+    padding: 5rem 0;
+}
+
+.home-boxes i{
+    font-size: 4rem;
+}
+.home-boxes h3{
+    font-size: 2.6rem;
+}
+
+/* --------- */
+.home-passion{
+    position: relative;
+    height: 350px;
+    background-image: url('../img/home-passion.jpg');
+    background-position: center;
+    background-size: cover;
+    z-index: index 0;;
+}
+
 
 @media (min-width: 1400px) {
     .carousel-item {
