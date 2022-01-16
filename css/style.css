@@ -13,6 +13,17 @@ body{
     font-size: 1.6rem;
 }
 
+.her-shadow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0. 0. 0.6);
+    z-index: -1;
+}
+
+
+
 /* nawigacja */
 
 nav{
@@ -41,15 +52,16 @@ header{
     height: 400px;
     background-position: center;
     background-size: cover;
+    z-index: 0;
 }
 
 
 .carousel-img-one{
-    background-color: url('../img/main-carousel-1.jpg');
+    background-image: url('../img/main-carousel-1.jpg');
 }
 .carousel-img-two{
-    background-color: url('../img/main-carousel-2.jpg');
+    background-image: url('../img/main-carousel-2.jpg');
 }
 .carousel-img-three{
-    background-color: url('../img/main-carousel-3.jpg');
+    background-image: url('../img/main-carousel-3.jpg');
 }
