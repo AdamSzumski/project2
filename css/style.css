@@ -65,3 +65,18 @@ header{
 .carousel-img-three{
     background-image: url('../img/main-carousel-3.jpg');
 }
+
+@media (min-width: 1400px) {
+    .carousel-item {
+        height: 600px;
+    }
+    .carousel-img-one{
+        background-image: url('../img/main-carousel-1-hq.jpg');
+    }
+    .carousel-img-two{
+        background-image: url('../img/main-carousel-2-hq.jpg');
+    }
+    .carousel-img-three{
+        background-image: url('../img/main-carousel-3-hq.jpg');
+    }
+}
