@@ -85,7 +85,13 @@ header{
     background-image: url('../img/home-passion.jpg');
     background-position: center;
     background-size: cover;
-    z-index: index 0;;
+    z-index: index 0;
+}
+
+/* ------------ */
+.homebrand h3{
+    font-size: 3rem;
+    font-weight: bold;
 }
 
 
