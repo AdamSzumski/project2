@@ -18,10 +18,26 @@ body{
     top: 0;
     left: 0;
     width: 100%; height: 100%;
-    background-color: rgba(0. 0. 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     z-index: -1;
 }
 
+.top-hero{
+    position: relative;
+    height: 200px;
+    background-size: cover;
+    z-index: 0;
+}
+
+.top-hero-text{
+    display: flex;
+    justify-content: center;
+align-items: center;
+height: 100%;
+font-size: 3.6rem;
+text-transform: uppercase;
+
+}
 
 
 /* nawigacja */
@@ -97,6 +113,13 @@ header{
 /* footer */
 footer{
     font-size: 1.6rem;
+}
+
+/* about us */
+
+.aboutus-hero{
+background-image: url('../img/about/highway.jpg');
+background-position: bottom;
 }
 
 
