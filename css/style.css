@@ -29,3 +29,27 @@ text-transform: uppercase;
     font-weight: bold;
     text-transform: none;
 }
+
+/* header */
+
+header{
+    font-size: 2rem;
+}
+
+.carousel-item{
+    position: relative;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.carousel-img-one{
+    background-color: url('../img/main-carousel-1.jpg');
+}
+.carousel-img-two{
+    background-color: url('../img/main-carousel-2.jpg');
+}
+.carousel-img-three{
+    background-color: url('../img/main-carousel-3.jpg');
+}
